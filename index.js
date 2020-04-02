@@ -31,5 +31,5 @@ var deepestChild = function(){
  
  return null
 }
-
+console.log(document.querySelector("div"))
 deepestChild()
