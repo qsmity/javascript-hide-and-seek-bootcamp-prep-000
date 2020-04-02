@@ -1,5 +1,5 @@
 var getFirstSelector = function(selector){
-  document.querySelector('h1')
+  document.querySelector('selector')
 }
 
 
