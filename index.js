@@ -17,19 +17,12 @@ var increaseRankBy = function(n){
 
 var deepestChild = function(){
  const childList = document.querySelector('div#grand-node')
- console.log(childList)
+ let current = []
  
- for (i = 0; i < lis.length; i++){
-   
-   if (lis[i].innerHtml === "boo!"){
-     return lis[i]
-   }
-   
-   
- 
+ while(current){
+   if (current.querySelector)
  }
  
  return null
 }
-console.log(document.querySelector("div"))
 deepestChild()
