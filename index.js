@@ -1,5 +1,5 @@
 var getFirstSelector = function(selector){
-  document.querySelector('selector')
+  document.querySelector('${selector}')
 }
 
 
@@ -25,6 +25,7 @@ var deepestChild = function(){
    }
    
    
+ 
  }
  
  return null
